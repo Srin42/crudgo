@@ -1,0 +1,5 @@
+# config.yaml
+mongo:
+  url: "mongodb://localhost:27017"
+  database: "sri"
+  collection: "sric"
