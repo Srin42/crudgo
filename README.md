@@ -17,6 +17,16 @@ Gin - Install using go get -u github.com/gin-gonic/gin
 Viper - Install using go get -u github.com/spf13/viper
 MongoDB Go Driver - Install using go get go.mongodb.org/mongo-driver/mongo
 
+MongoDB Setup
+Install MongoDB by following the instructions provided in the official MongoDB installation guide.
+
+Start the MongoDB server. You can usually do this by running:
+
+bash
+mongod
+
+Optionally, create a new MongoDB database and collection for this application. You can use the MongoDB shell or a GUI tool like MongoDB Compass.
+
 Configuration
 The application uses Viper for configuration. The configuration is expected to be in a YAML file named config.yaml. You can also provide a JSON or TOML configuration file. By default, it searches for the configuration file in the current directory.
 
